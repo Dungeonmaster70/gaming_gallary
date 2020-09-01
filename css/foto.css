@@ -1,0 +1,46 @@
+.heading{
+	text-align: center;
+}
+
+body{
+	margin: 0px;
+	background: linear-gradient(to right ,rgb(96,135,169), rgb(139,9,9));
+	text-align: center;
+}
+
+h1{
+	font-family: algerian;
+	font-size: 3em;
+	width: 700px;
+	text-align: center;
+	text-decoration: underline green;
+	box-shadow: 5px 5px 5px black;
+}
+
+.foto{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: center;
+
+}
+
+img{
+	cursor:pointer;
+	transition: all 2s;
+	height: 300px;
+	width: 350px;
+	margin: 20px;
+	border-color: green;
+}
+img:hover{
+	transform: scale(1.2);
+}
+
+.footr{
+	display:block;
+	background-color: transparent;
+	padding: 10px;
+	margin :5px;
+
+}
